@@ -1,8 +1,8 @@
 // TODO: Include packages needed for this application
 const fs = require('fs');
-//const path = require('path');
+const path = require('path');
 const inquirer = require('inquirer');
-const generateMarkdown = require('./generateMarkdown');
+const generateMarkdown = require('./utils/generateMarkdown');
 
 
 const fileName = 'README2.md';
@@ -64,19 +64,73 @@ const questions = [
 
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
-    return fs.writeFileSync(fileName, data);
-}
+     fs.writeFileSync(fileName, data, (err) =>
+     err ? console.error(err) : console.log('Commit entered!')
+     );
+};
 
 // TODO: Create a function to initialize app
-async function init() {
-    let answers = await inquirer.prompt(questions)
-    .then((answers) => {
-        console.log(answers);
-        var data = generateMarkdown(answers);
-        JSON.stringify(data)
-        writeToFile("generatedREADME.md", data);
-    })
+function init() {
+    inquirer
+        .prompt([
+            {
+                type: 'input',
+                message: questions[0].question,
+                name: questions[0].name
+            },
+            {
+                type: 'input',
+                message: questions[1].question,
+                name: questions[1].name
+            },
+            {
+                type: 'input',
+                message: questions[2].question,
+                name: questions[2].name
+            },
+            {
+                type: 'input',
+                message: questions[3].question,
+                name: questions[3].name
+            },
+            {
+                type: 'list',
+                message: questions[4].question,
+                name: questions[4].name,
+                choices: questions[4].choices
+            },
+            {
+                type: 'input',
+                message: questions[5].question,
+                name: questions[5].name
+            },
+            {
+                type: 'input',
+                message: questions[6].question,
+                name: questions[6].name
+            },
+            {
+                type: 'input',
+                message: questions[7].question,
+                name: questions[7].name
+            },
+            {
+                type: 'input',
+                message: questions[8].question,
+                name: questions[8].name
+            },
+            {
+                type: 'input',
+                message: questions[9].question,
+                name: questions[9].name
+            }
+        ])
+        .then((answers) => {
+            console.log(answers)
+            writeToFile(fileName, generateMarkdown(answers))
+        })
 }
+
 
 // Function call to initialize app
   init();

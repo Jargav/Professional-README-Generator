@@ -18,5 +18,6 @@
   "homepage": "https://github.com/Jargav/Professional-README-Generator#readme",
   "dependencies": {
     "inquirer": "^8.2.0"
-  }
+  },
+  "devDependencies": {}
 }
