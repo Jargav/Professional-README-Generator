@@ -1,11 +1,11 @@
 // TODO: Include packages needed for this application
 const fs = require('fs');
-const path = require('path');
+//const path = require('path');
 const inquirer = require('inquirer');
 const generateMarkdown = require('./generateMarkdown');
 
 
-
+const fileName = 'README2.md';
 // TODO: Create an array of questions for user input
 const questions = [
     {
@@ -36,17 +36,17 @@ const questions = [
     },
     {
         type: 'input',
-        question: 'List your collaborators, if any, with links to their GitHub profiles.\nIf you used any third-party assets that require attribution, list the creators with links to their primary web presence in this section.\nIf you followed tutorials, include links to those here as well.',
-        name: 'credits'
+        question: 'Why would you build this?',
+        name: 'why'
     },
     {
         type: 'input',
-        question: 'If you created an application or package and would like other developers to contribute it, you can include guidelines for how to do so.',
+        question: 'Would you like other developers to contribute it? How would they go about this?',
         name: 'contributing'
     },
     {
         type: 'input',
-        question: 'Go the extra mile and write tests for your application. Then provide examples on how to run them here.',
+        question: 'Write tests for your application. Then provide examples on how to run them.',
         name: 'tests'
     },
     {
@@ -79,4 +79,6 @@ async function init() {
 }
 
 // Function call to initialize app
-init();
+  init();
+
+ 
