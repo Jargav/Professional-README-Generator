@@ -12,16 +12,16 @@
   
 
   ## Description 
-  saf
+  to generate professional readme 
 
   ## Installation
   ```md
-f
+ddjl;j
 ```
 
 
   ## Usage
-  ff
+  lkjjk
 
   ## Credits
   
@@ -30,11 +30,11 @@ f
   This project is licensed under the MIT license. For more information. please visit [![license](https://choosealicense.com/licenses/MIT).
 
   ## Contributing
-  fs
+  jl;jo
 
   ## Tests
-  af
+  alkhflk
 
   ## Questions
-  You can find my github at [saf](http://github.comsaf). Feel free to email me at a if you have any further questions.
+  You can find my github at [jargav](http://github.comjargav). Feel free to email me at funny@gmail.com if you have any further questions.
   

@@ -20,7 +20,7 @@ const questions = [
     },
     {
         type: 'input',
-        question: 'What are the steps required to install your project? Provide a step-by-step description.',
+        question: 'What are the steps required to install your project? Please provide a step-by-step description.',
         name: 'installation'
     },
     {
