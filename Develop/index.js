@@ -20,12 +20,12 @@ const questions = [
     },
     {
         type: 'input',
-        question: 'What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.',
+        question: 'What are the steps required to install your project? Provide a step-by-step description.',
         name: 'installation'
     },
     {
         type: 'input',
-        question: 'Provide instructions and examples for use.',
+        question: 'Provide instructions and examples for user.',
         name: 'usage'
     },
     {
@@ -46,7 +46,7 @@ const questions = [
     },
     {
         type: 'input',
-        question: 'Write tests for your application. Then provide examples on how to run them.',
+        question: 'Write tests for your application. Please provide examples.',
         name: 'tests'
     },
     {
