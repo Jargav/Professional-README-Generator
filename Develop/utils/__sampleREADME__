@@ -1,0 +1,22 @@
+What is the name of your project? PROFESSIONAL-README-GENERATOR       
+? Describe your project. commandline README generator
+? What are the steps required to install your project? Provide a step-by-step description. answer questions and prompts
+? Provide instructions and examples for user. follow the link
+? Please select the license you would like to choose: MIT
+? Why would you build this? to help developers in their journey
+? Would you like other developers to contribute it? How would they go about this? yes of course, by review and with pull requests
+? Write tests for your application. Please provide examples. a = a      
+? What is your GitHub username? jargav
+? What is your email address? jaalfkjal;@gmail.com
+{
+  title: 'PROFESSIONAL-README-GENERATOR',
+  description: 'commandline README generator',
+  installation: 'answer questions and prompts',
+  usage: 'follow the link',
+  license: 'MIT',
+  why: 'to help developers in their journey',
+  contributing: 'yes of course, by review and with pull requests',      
+  tests: 'a = a',
+  gitHubUsername: 'jargav',
+  emailAddress: 'jaalfkjal;@gmail.com'
+}

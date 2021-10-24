@@ -12,16 +12,16 @@
   
 
   ## Description 
-  commandline readme generator
+  saf
 
   ## Installation
   ```md
-akjljdj;j
+f
 ```
 
 
   ## Usage
-  dasfal;j;
+  ff
 
   ## Credits
   
@@ -30,11 +30,11 @@ akjljdj;j
   This project is licensed under the MIT license. For more information. please visit [![license](https://choosealicense.com/licenses/MIT).
 
   ## Contributing
-  gfgdfgdf
+  fs
 
   ## Tests
-  dghdhd
+  af
 
   ## Questions
-  You can find my github at [dfdgd](http://github.comdfdgd). Feel free to email me at dfdfgdg@gg if you have any further questions.
+  You can find my github at [saf](http://github.comsaf). Feel free to email me at a if you have any further questions.
   
